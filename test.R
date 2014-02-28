@@ -1,0 +1,4 @@
+library(OpenStreetMap)
+library(rgdal)
+map <- openmap(c(70,-179), c(-70,179))
+plot(map)
